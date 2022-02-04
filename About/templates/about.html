@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% load static %}
+{% block page_content %}
+<head>
+   <link rel="stylesheet" href="{% static 'css/about.css' %}" type="text/css"/>
+    <link rel="stylesheet" href="{% static 'css/base.css' %}" type="text/css"/>
+</head>
+<div class="row">
+    <div class="col-md-4">
+        <img src="{% static 'images/aboutme.jpg' %}" alt="" width="100%">
+    </div>
+    <div class="col-md-4">
+        <h3>About Me</h3>
+        <p>I am a father, a science enthusiast, a history lover, a world traveller, a musician, a gym rat, and a software developer who has a passion for life-long education. I enjoy reading, and learning about a large variety of subjects
+        including math, physics, data science, technology, computer sciences, engineering, and history. </p>
+        <p>I studied at the University of British Columbia from September 2011 to January 2015. I graduated with a degree in physics, and focused on computer
+        science courses outside my core subjects. Some of my course highlights include Computational Physics, Human Computer Interactions,
+        Development in Java, and Python Development for Physics Labs. </p>
+        <p>During my time at the University I completed an 8 month co-op internship. I worked for the Faculty of Pharmacy, and the
+        Faculty of Land and Food Systems as a Learning Technology Rover. After Graduation I worked as a software developer both in a corporate environment, and as a freelancer.</p>
+    </div>
+    <div class="col-md-4" style="margin-top:38px;">
+     <p>Outside work, I've always had a passion for travelling, and a desire to see the world. For the past three years I've been living and working in Nanjing, China
+     During my time here I've been able to travel to Indonesia, Thailand, The Philippines, Vietnam, Cambodia, and many places inside China.</p>
+        <p>I have a wonderful 1 year old son. I became a father in September 2020, and consistently strive to be the type of
+        person I want my son to look up.</p>
+        <p>My personal hobbies include working out and cooking healthier and higher protein versions of the foods we typically love(ice cream, pizza, pastas etc.).
+        During my weekends and holidays, I enjoy hiking mountains, watching history documentaries, and playing guitar.</p>
+        <p>I consider myself to be a lifetime student. I find learning to be fulfilling in nature, and a major motivation for everything I do. </p>
+    </div>
+    </div>
+</div>
+{% endblock %}

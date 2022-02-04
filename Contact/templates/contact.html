@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% load static %}
+{% block page_content %}
+<head>
+   <link rel="stylesheet" href="{% static 'css/contact.css' %}" type="text/css"/>
+    <link rel="stylesheet" href="{% static 'css/base.css' %}" type="text/css"/>
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"  type='text/css'>
+    <style>.fa {font-size:86px; margin:auto; width:100%; text-align:center !important;}
+            h6, h1, p{text-align: center}
+            p{margin-right: 25%; margin-left: 25%}
+    </style>
+</head>
+<div class="row">
+    <div class="col-md-6">
+        <i class="fa fa-phone"></i>
+        <h6>(+86) 173-1445-7968</h6>
+    </div>
+    <div class="col-md-6">
+        <i class="fa fa-envelope"></i>
+        <h6><a href="mailto:tannerbraithwaite@gmail.com">tannerbraithwaite@gmail.com</a></h6>
+    </div>
+        <div class="col-md-12">
+        <h1>Contact information</h1>
+        <p>If you are interested in collaboratting on a project, or you would like to know more about me, I can be contacted at the information above.
+            The best way to reach me is by email. I will typically respond within 24 hours</p>
+    </div>
+
+    </div>
+</div>
+{% endblock %}
