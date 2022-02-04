@@ -1,0 +1,19 @@
+li.nav-item{
+    padding-right: 48px;
+}
+
+
+.mb-lg-0, .my-lg-0 {
+    padding-right: 8px;
+}
+
+.row {
+   margin:9px;
+
+}
+
+.body {
+   font-weight:300;
+   background-color:#e7eff9;
+   background-image:linear-gradient(315deg, #e7eff9 0%, #cfd6e6 74%);
+ }
